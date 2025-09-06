@@ -363,6 +363,12 @@ async def get_stats():
         "total_users": total_users
     }
 
+# Health check endpoint
+@api_router.get("/")
+async def health_check():
+    """API health check endpoint"""
+    return {"status": "healthy", "message": "Blood Donation API is running"}
+
 # Include the router in the main app
 app.include_router(api_router)
 
