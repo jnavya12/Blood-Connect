@@ -276,9 +276,6 @@ metadata:
 
 test_plan:
   current_focus:
-    - "Authentication System - Emergent Auth Integration"
-    - "Blood Request Management System"
-    - "Donor Response System"
     - "Dashboard with Stats and Request Overview"
   stuck_tasks: []
   test_all: false
